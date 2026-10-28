@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbita — Academia de IA</title>
+    <meta
+      name="description"
+      content="Aprende inteligencia artificial con cursos prácticos, mentores activos y proyectos reales."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#inicio">Orbita</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#cursos">Cursos</a>
+        <a href="#metodo">Método</a>
+        <a class="nav-cta" href="#inscripcion">Empezar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="brand-mark">Orbita</p>
+          <h1>Formación práctica en inteligencia artificial</h1>
+          <p class="lede">
+            Cursos intensivos para construir productos con IA, desde el primer
+            prompt hasta sistemas en producción.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#inscripcion">Ver próximos cursos</a>
+            <a class="btn btn-ghost" href="#metodo">Cómo trabajamos</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80"
+            alt=""
+            width="1600"
+            height="1067"
+          />
+        </div>
+      </section>
+
+      <section class="section method" id="metodo">
+        <div class="section-intro reveal">
+          <h2>Aprendes haciendo, no memorizando</h2>
+          <p>
+            Cada módulo cierra con un entregable real: un asistente, un
+            pipeline de datos o una integración lista para demo.
+          </p>
+        </div>
+        <ol class="method-list">
+          <li class="reveal">
+            <span class="step">01</span>
+            <div>
+              <h3>Fundamentos accionables</h3>
+              <p>Modelos, prompts y evaluación con criterios de producto.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step">02</span>
+            <div>
+              <h3>Proyectos guiados</h3>
+              <p>Construyes en vivo con feedback semanal de mentores.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step">03</span>
+            <div>
+              <h3>Portfolio listo</h3>
+              <p>Sales con casos documentados y un demo desplegado.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section courses" id="cursos">
+        <div class="section-intro reveal">
+          <h2>Tres rutas para entrar en IA</h2>
+          <p>Elige según tu punto de partida. Todas son online y en español.</p>
+        </div>
+        <ul class="course-list">
+          <li class="reveal">
+            <a href="#inscripcion">
+              <span class="course-meta">8 semanas · Principiante</span>
+              <span class="course-title">IA para product managers</span>
+              <span class="course-desc"
+                >Define casos de uso, mide calidad y prioriza roadmap con
+                modelos generativos.</span
+              >
+              <span class="course-link">Inscribirme</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a href="#inscripcion">
+              <span class="course-meta">10 semanas · Intermedio</span>
+              <span class="course-title">Ingeniería de aplicaciones LLM</span>
+              <span class="course-desc"
+                >RAG, agentes, evaluación y despliegue con APIs modernas.</span
+              >
+              <span class="course-link">Inscribirme</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a href="#inscripcion">
+              <span class="course-meta">6 semanas · Todos los niveles</span>
+              <span class="course-title">Automatización con IA en el trabajo</span>
+              <span class="course-desc"
+                >Flujos prácticos para marketing, operaciones y soporte.</span
+              >
+              <span class="course-link">Inscribirme</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section enroll" id="inscripcion">
+        <div class="enroll-panel reveal">
+          <h2>Próxima cohorte: 12 de noviembre</h2>
+          <p>
+            Plazas limitadas. Déjanos tu email y te enviamos el temario completo
+            y fechas de sesión informativa.
+          </p>
+          <form class="enroll-form" action="#" method="post">
+            <label class="sr-only" for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="tu@email.com"
+              required
+              autocomplete="email"
+            />
+            <button class="btn btn-primary" type="submit">Quiero plazas</button>
+          </form>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="logo">Orbita</p>
+      <p>Academia de cursos de inteligencia artificial.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
